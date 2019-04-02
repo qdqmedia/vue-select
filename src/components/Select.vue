@@ -991,7 +991,7 @@
        * @return {void}
        */
       onSearchBlur() {
-        if (this.mousedown && !this.searching) {
+        if (this.mousedown) {
           this.mousedown = false
         } else {
           if (this.clearSearchOnBlur) {
